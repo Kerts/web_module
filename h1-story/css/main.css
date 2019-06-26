@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: linear-gradient(260deg, #2376ae 1%, #c16ecf 100%);
+
+}
+
+h1 {
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.navbar {
+    font-size: 22px;
+    background-image: linear-gradient(260deg, #2376ae 0%, #c16ecf 100%);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 125px;
+}
+
+.main-nav {
+    list-style-type: none;
+}
+
+.nav-links,
+.logo {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.main-nav li {
+    text-align: center;
+    margin: 10px auto;
+    margin-top: 120px;
+}
+
+.logo {
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.story {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 5%;
+    font-size: 30px;
+    border: 0px solid rgba(0, 0, 0, 0.2);
+    color: rgba(255, 255, 255, 0.7);
+}
+
+img {
+    margin-left: 400px;
+    height: 60px;
+}
+
+/*CSS FOR BUTTON*/
+.button {
+    font-family: 'Josefin Sans', sans-serif;
+    border: none;
+    color: white;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/*CSS FOR BUTTON END*/

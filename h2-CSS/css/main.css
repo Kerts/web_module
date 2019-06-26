@@ -1,0 +1,45 @@
+body {
+    background-color: #4A0D80;
+    margin: 50px;
+    margin-top: 80px;
+}
+
+h1 {
+    color: green;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+p {
+    color: azure
+}
+
+a.link1 {
+    color: aqua;
+}
+
+a.link2 {
+    color: pink;
+}
+
+h2{
+    color: red;
+    margin-top: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h3{
+    color: yellow;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+p {
+   margin-right: 65%
+}
+
+li {
+    color: orange
+}
+
+li.black {
+    color: black;
+}

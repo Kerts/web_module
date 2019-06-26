@@ -1,0 +1,811 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+/*Menu*/
+
+body {
+    font-family: 'Baloo', cursive;
+}
+
+nav {
+    background: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 100;
+    overflow: scroll;
+    position: fixed;
+}
+
+nav ul {
+    display: inline-block;
+    padding: 8px;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    font-size: 20pt;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+nav div.left {
+    display: inline-block;
+    float: left;
+}
+
+nav div.right {
+    display: inline-block;
+    float: right;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+/*Logo*/
+
+header {
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-image: url('../img/m.jpeg');
+}
+
+header h1 {
+    text-align: center;
+    padding: 50vh 0;
+    height: 0;
+    line-height: 0;
+    color: white;
+    font-size: 50pt
+}
+
+section.app article {
+    position: absolute;
+    color: white;
+    font-size: 30pt;
+    top: 20vh;
+    left: 20vh;
+}
+
+section.image1 div{
+    position: absolute;
+    padding: 0 0;
+
+}
+section.image1 div.mac {
+    width: 60vh;
+    top: 55vh;
+    left: 20vh;
+}
+
+section.image1 div.phone {
+    width: 20vh;
+    top: 45vh;
+    left: 120vh;
+}
+
+section.image1 div.cloud {
+    width: 10vh;
+    top: 10vh;
+    left: 15vh;
+}
+
+section.image1 div.storea {
+    width: 10vh;
+    top: 95vh;
+    left: 140vh;
+}
+
+section.image1 div.storeg {
+    width: 10vh;
+    top: 95vh;
+    left: 160vh;
+}
+
+
+/*Page 2*/
+
+section.plan {
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-image: url('../img/a.jpg');
+    padding: 51vh 0;
+}
+
+section h2 {
+    position: absolute;
+    color: white;
+    font-size: 30pt;
+    text-align: center;
+    width: 100%;
+    top: 105vh;
+}
+
+
+/*S*/
+
+section div.s {
+    position: absolute;
+    width: 25vh;
+    top: 120vh;
+    left: 25vh;
+    padding: 0 0;
+}
+
+section div.okos {
+    color: white;
+    font-size: 20pt;
+    position: absolute;
+    top: 123.8vh;
+    left: 33.4vh;
+}
+
+section div.muchs {
+    color: black;
+    font-size: 25pt;
+    position: absolute;
+    top: 136vh;
+    left: 29vh;
+}
+
+section div.diss ul {
+    color: black;
+    font-size: 12pt;
+    position: absolute;
+    top: 147vh;
+    left: 28vh;
+    list-style-type: circle;
+    width: 20vh;
+    text-align: left;
+}
+
+section blink.joins {
+    color: white;
+    font-size: 20pt;
+    position: absolute;
+    top: 173vh;
+    left: 30vh;
+    background-color: black;
+    width: 15vh;
+    text-align: center;
+    -webkit-animation: blink 2s linear infinite;
+    animation: blink 2s linear infinite;
+}
+
+
+/*M*/
+
+section div.m {
+    position: absolute;
+    width: 25vh;
+    top: 120vh;
+    left: 79vh;
+    padding: 0 0;
+}
+
+section div.okom {
+    color: white;
+    font-size: 20pt;
+    position: absolute;
+    top: 123.8vh;
+    left: 86.8vh;
+}
+
+section div.muchm {
+    color: black;
+    font-size: 25pt;
+    position: absolute;
+    top: 136vh;
+    left: 83.6vh;
+}
+
+section div.dism ul {
+    color: black;
+    font-size: 12pt;
+    position: absolute;
+    top: 147vh;
+    left: 82vh;
+    list-style-type: circle;
+    width: 20vh;
+    text-align: left;
+}
+
+section blink.joinm {
+    color: white;
+    font-size: 20pt;
+    position: absolute;
+    top: 173vh;
+    left: 84vh;
+    background-color: black;
+    width: 15vh;
+    text-align: center;
+    -webkit-animation: blink 2s linear infinite;
+    animation: blink 2s linear infinite;
+}
+
+
+/*L*/
+
+section div.l {
+    position: absolute;
+    width: 25vh;
+    top: 120vh;
+    left: 131vh;
+    padding: 0 0;
+    border-spacing:
+}
+
+section div.okol {
+    color: white;
+    font-size: 20pt;
+    position: absolute;
+    top: 123.8vh;
+    left: 139.6vh;
+}
+
+section div.muchl {
+    color: black;
+    font-size: 25pt;
+    position: absolute;
+    top: 136vh;
+    left: 134.5vh;
+}
+
+section div.disl ul {
+    color: black;
+    font-size: 12pt;
+    position: absolute;
+    top: 147vh;
+    left: 134vh;
+    list-style-type: circle;
+    width: 20vh;
+    text-align: left;
+}
+
+section blink.joinl {
+    color: white;
+    font-size: 20pt;
+    position: absolute;
+    top: 173vh;
+    left: 136vh;
+    background-color: black;
+    width: 15vh;
+    text-align: center;
+    -webkit-animation: blink 2s linear infinite;
+    animation: blink 2s linear infinite;
+}
+
+@-webkit-keyframes blink {
+    50% {
+        color: rgb(34, 34, 34);
+    }
+    51% {
+        color: rgba(34, 34, 34, 0);
+    }
+    100% {
+        color: rgba(34, 34, 34, 0);
+    }
+}
+
+@keyframes blink {
+    50% {
+        color: rgb(34, 34, 34);
+    }
+    51% {
+        color: rgba(34, 34, 34, 0);
+    }
+    100% {
+        color: rgba(34, 34, 34, 0);
+    }
+}
+
+
+/*About us*/
+
+section.aboutus {
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-image: url('../img/about.jpeg');
+    padding: 43vh 0;
+}
+
+section h3 {
+    position: absolute;
+    color: white;
+    font-size: 30pt;
+    top: 209vh;
+    text-align: center;
+    width: 100%;
+}
+
+section.aboutus ul {
+    color: white;
+    font-size: 20pt;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 245vh;
+}
+
+section.image2 {
+    position: absolute;
+    top: 274vh;
+    left: 55vh;
+    width: 5%;
+}
+
+section form {
+    background-color: black;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="submit"] {
+    line-height: 2;
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px;
+    padding: 0.15vh;
+    font-weight: 500;
+    font-size: 0.8rem;
+    transition: all 0.125s linear;
+}
+
+input[type="submit"] {
+    border-color: white;
+    background-color: black;
+    color: white;
+}
+
+input[type="submit"]:hover {
+    border-color: #4882FD;
+    background-color: #4882FD;
+}
+
+input:focus {
+    outline: 0;
+}
+
+::-webkit-input-placeholder {
+    color: #444;
+}
+
+::-moz-placeholder {
+    color: #444;
+}
+
+:-moz-placeholder {
+    color: #ccc;
+}
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap;
+    /* 1 */
+}
+
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    clip-path: none;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+    white-space: inherit;
+}
+
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after,
+    p:first-letter,
+    div:first-letter,
+    blockquote:first-letter,
+    li:first-letter,
+    p:first-line,
+    div:first-line,
+    blockquote:first-line,
+    li:first-line {
+        background: transparent !important;
+        color: #000 !important;
+        /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+    pre {
+        white-space: pre-wrap !important;
+    }
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+    thead {
+        display: table-header-group;
+    }
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
